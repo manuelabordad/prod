@@ -1,0 +1,203 @@
+.nav {
+	background-color: #ffe3e0;
+}
+
+.nav__font {
+	color: white;
+}
+
+.nav__margin {
+	margin-bottom: 10px;
+}
+
+.body {
+	background-color: #f7a399;
+}
+
+.home {
+	text-align: center;
+}
+
+.home__title {
+	font-family: "Londrina Solid", cursive;
+	font-size: 60px;
+	color: white;
+	animation: bounce 2s infinite;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.home__marginb {
+	margin-bottom: 150px;
+}
+.home__margint {
+	margin-top: 30px;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(1, 1) translateY(0);
+	}
+	10% {
+		transform: scale(1.1, 0.9) translateY(0);
+	}
+	30% {
+		transform: scale(0.9, 1.1) translateY(-100px);
+	}
+	50% {
+		transform: scale(1.05, 0.95) translateY(0);
+	}
+	57% {
+		transform: scale(1, 1) translateY(-7px);
+	}
+	64% {
+		transform: scale(1, 1) translateY(0);
+	}
+	100% {
+		transform: scale(1, 1) translateY(0);
+	}
+}
+.img_margin {
+	margin-bottom: 100px;
+}
+
+.conteiner_menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 150px;
+	text-align: center;
+	height: 300px;
+}
+
+.conteiner_menu__items {
+	background-color: #ffe3e0;
+	border: solid white;
+	border-radius: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.conteiner_menu__img {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.conteiner_menu__dropdown {
+	background-color: #ef6351;
+}
+
+.conteiner_about {
+	height: fit-content;
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	right: 0;
+	padding-left: 50px;
+}
+.section_title {
+	font-family: "Londrina Solid", cursive;
+	font-size: 60px;
+	color: white;
+}
+
+.section_title__margin {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.conteiner_recetas {
+	padding-bottom: 100px;
+	grid-column-gap: 10px;
+}
+.conteiner_recetas__titulo {
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #ffe3e0;
+	font-family: "RocknRoll One", sans-serif;
+}
+.conteiner_recetas__item1 {
+	background-color: #f38375;
+	border: solid #ffe3e0;
+	border-radius: 10%;
+	text-align: center;
+}
+.conteiner_recetas_img {
+	border-radius: 30%;
+}
+
+.btn.btn-lg.btn-color {
+	background-color: #ef6351;
+}
+.buttonTips__margin {
+	margin-bottom: 100px;
+}
+
+.grid_tips {
+	background-color: #ef6351;
+	margin-bottom: 100px;
+	border: solid #ffe3e0 8px;
+	width: 650px;
+	margin-left: 300px;
+}
+.grid_tips__title {
+	background-color: #ffe3e0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "RocknRoll One", sans-serif;
+}
+.grid_tips__img {
+	border-radius: 20%;
+	margin-bottom: 30px;
+}
+.grid_tips__list {
+	background-color: #ffe3e0;
+}
+
+.conteiner_footer {
+	position: absolute;
+	background-color: #fbc3bc;
+	max-width: none;
+	width: 100%;
+}
+
+.conteiner_footer__email {
+	color: black;
+}
+
+.conteiner_footer__number {
+	list-style-type: none;
+}
+
+p {
+	font-family: "Source Sans Pro", sans-serif;
+	color: black;
+	font-size: 20px;
+}
+.row {
+	display: grid;
+	column-gap: 5rem;
+}
+@media only screen and (max-width: 480px) {
+	.conteiner_menu {
+		grid-template-columns: 1fr;
+		grid-row-gap: 10px;
+	}
+	.conteiner_footer {
+		width: 100%;
+	}
+	.imgMediaQuery {
+		width: 15rem;
+		height: 15rem;
+	}
+	.about_padding {
+		padding-top: 650px;
+	}
+	.grid_tips {
+		margin-left: 30px;
+		width: 450px;
+	}
+}
