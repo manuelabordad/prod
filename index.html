@@ -4,7 +4,233 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<link rel="stylesheet" href="cssboot/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilos.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap"
+			rel="stylesheet"
+		/>
+		<meta
+			name="keywords"
+			content="recetas,cocina,facil,desayunos,almuerzos,cenas"
+		/>
+		<title>inicio/Cocina para dummies</title>
+		<meta
+			name="description"
+			content="Faciles y variadas recetas de cocina para
+		principiantes,tips de organizacion, decoracion y limpieza. Meal preap para la
+		semana y mucho mas. "
+		/>
 	</head>
-	<body></body>
+
+	<body class="body">
+		<!--NAVBAR-->
+		<nav class="navbar navbar-expand-lg navbar-light nav nav__margin">
+			<div class="container-fluid">
+				<a class="navbar-brand paddingg nav__font" href="#"
+					>Cocina para dummies
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">
+								Inicio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="seccion2.html">Desayuno</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="seccion3.html">Snacks</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="seccion4.html">Almuerzo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="seccion5.html">Cena </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="seccion6.html">Tips</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--INICIO-->
+		<div class="container home">
+			<div class="row">
+				<div class="col-sm">
+					<img
+						class="imgMediaQuery"
+						src="imagenes/chefconbandeja.jpg.png"
+						alt="muñequita chef con una bandeja"
+						height="350px"
+					/>
+					<br />
+					<h1 class="home home__title home__margint">Cocina para dummies</h1>
+				</div>
+			</div>
+		</div>
+		<!--MENU-->
+		<div class="conteiner_menu">
+			<div class="conteiner_menu__items">
+				<img
+					src="imagenes/dibujoTaco.png"
+					height="200px"
+					width="200px"
+					alt="dibujo de taco"
+				/>
+				<p>Conoce nuestros platos principales variados y fáciles de hacer</p>
+				<div class="dropdown">
+					<button
+						class="btn btn-secondary dropdown-toggle conteiner_menu__dropdown"
+						type="button"
+						id="dropdownMenuButton1"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						Dropdown button
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						<li><a class="dropdown-item" href="seccion2.html">Desayuno</a></li>
+						<li><a class="dropdown-item" href="#">Almuerzo</a></li>
+						<li><a class="dropdown-item" href="#">Cena</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="conteiner_menu__items">
+				<img
+					src="imagenes/dibujodurazno.png"
+					height="180px"
+					width="200px"
+					alt="dibujo de un durazno"
+					class="conteiner_menu__img"
+				/>
+				<p>Conoce nuestros snacks saludables para matar el antojo</p>
+				<div class="dropdown">
+					<button
+						class="btn btn-secondary dropdown-toggle conteiner_menu__dropdown"
+						type="button "
+						id="dropdownMenuButton1"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						Dropdown button
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						<li><a class="dropdown-item" href="#">Snacks</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="conteiner_menu__items">
+				<img
+					src="imagenes/gato.png"
+					height="200px"
+					width="200px"
+					alt="gato con un libro"
+				/>
+				<p>Conoce nuestros mejores tips sobre cocina y organización</p>
+				<div class="dropdown">
+					<button
+						class="btn btn-secondary dropdown-toggle conteiner_menu__dropdown"
+						type="button"
+						id="dropdownMenuButton1"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						Dropdown button
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						<li><a class="dropdown-item" href="#">Tips</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--ABOUTUS-->
+		<div class="container conteiner_about">
+			<div class="row">
+				<div class="col-sm aboutus about_padding">
+					<p>
+						<strong> ACERCA DE NOSOTROS</strong> <br />
+						Somos un grupo de personas que aman la comida y quieren que aprendas
+						de ella, tambien hacemos muchos eventos con nutricionistas sobre
+						informacion detallada como: cursos de meal preap, postres
+						saludables, menu semanal y muchos más. Los fondos recaudados van a
+						una fundación de niños sin hogar
+					</p>
+				</div>
+				<div class="col-sm">
+					<img
+						class="imgMediaQuery"
+						src="imagenes/muñequitos.png.png"
+						alt="muñequitos chef"
+						width="400px"
+						height="400px"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div class="conteiner_footer">
+			<div class="row">
+				<div class="col-sm">
+					<strong>
+						<p>Contacto</p>
+					</strong>
+					<br />
+					<p>Para mas informacion nos puedes contactar por:</p>
+					<p>
+						Correo:
+						<a
+							class="conteiner_footer__email"
+							href="
+							mailto:cocinaparadummies_colombia@gmail.com"
+							>Presiona aqui para enviar un mail
+						</a>
+					</p>
+
+					<ul class="conteiner_footer__number">
+						<li>Celular:</li>
+						<li>+34 3245562858</li>
+						<li>+34 3164656285</li>
+						<li>+34 3164656285</li>
+					</ul>
+				</div>
+				<div class="col-sm">
+					<strong> <p>Redes sociales</p> </strong><br />
+					<img src="imagenes/yticon.png" alt="logo de youtube" width="50px" />
+					<img
+						src="imagenes/igicon.png"
+						alt="logo de instagram "
+						width="50px"
+					/>
+					<img src="imagenes/fbicon.png" alt="logo de facebook" width="55px" />
+					<p>En todas nos encontramos como cocina_paradummiescol</p>
+				</div>
+			</div>
+		</div>
+		<!--JAVASCRIPT-->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
