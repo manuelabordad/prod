@@ -135,6 +135,10 @@
 .buttonTips__margin {
 	margin-bottom: 100px;
 }
+.btn_text {
+	text-decoration: none;
+	color: white;
+}
 
 .grid_tips {
 	background-color: #ef6351;
