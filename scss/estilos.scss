@@ -185,8 +185,9 @@ p {
 	display: grid;
 	column-gap: 5rem;
 }
-li {
+.li {
 	width: fit-content;
+	padding-left: 120px;
 }
 @media only screen and (max-width: 480px) {
 	.conteiner_menu {
