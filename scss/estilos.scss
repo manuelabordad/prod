@@ -185,6 +185,9 @@ p {
 	display: grid;
 	column-gap: 5rem;
 }
+li {
+	width: fit-content;
+}
 @media only screen and (max-width: 480px) {
 	.conteiner_menu {
 		grid-template-columns: 1fr;
